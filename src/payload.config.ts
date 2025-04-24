@@ -1,4 +1,3 @@
-// storage-adapter-import-placeholder
 import { sqliteAdapter } from '@payloadcms/db-sqlite'
 import { payloadCloudPlugin } from '@payloadcms/payload-cloud'
 import { en } from '@payloadcms/translations/languages/en'
@@ -38,7 +37,6 @@ export default buildConfig({
     fallbackLanguage: 'en',
     supportedLanguages: { en, de },
   },
-  // jobs: jobsConfig,
   localization: {
     locales: ['en', 'de'],
     defaultLocale: 'en',
